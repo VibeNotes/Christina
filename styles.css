@@ -1,0 +1,90 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+ul{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background-color: #444;
+    color: #e6fa2c;
+    padding: 0.5em;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f2fb72;
+    background-color: #f74333; /* Choose your desired background color */
+    border-radius: 5px; /* Optional: add rounded corners */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+nav a:hover {
+    background-color: #625301; /* Change to a slightly different color on hover */
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+#hero-section {
+    background-image: url('hotel-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+#hero-section h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+}
+
+#book-now-btn {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#book-now-btn:hover {
+    background-color: #bfff00;
+    text-decoration: none;
+}
+
+#about-section, #services-section {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
